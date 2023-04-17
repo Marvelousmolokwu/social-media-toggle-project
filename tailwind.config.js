@@ -18,6 +18,13 @@ export default {
         InstagramII: "hsl(329, 70%, 58%)",
         YouTube: "hsl(348, 97%, 39%)",
       },
+      screens: {
+        sm: "480px",
+        md: "768px",
+
+        lg: "1024px",
+        xl: "1400px",
+      },
     },
   },
   plugins: [],

@@ -11,8 +11,8 @@ const Main = () => {
     twitter: "bg-Twitter",
   };
   return (
-    <main className="me-auto ms-auto max-w-[80%] z-10 -mt-14">
-      <section className="flex flex-col gap-6">
+    <main className="me-auto ms-auto max-w-[90%] z-10 -mt-14 lg:w-full lg:ms-0 lg:me-0 lg:px-20 lg:pr-6">
+      <section className="flex flex-col gap-6 md:items-center lg:flex lg:flex-row lg:justify-between">
         <SocialCards
           stylesHead={styles.blue}
           socialImage={"/src/images/icon-facebook.svg"}
@@ -50,12 +50,12 @@ const Main = () => {
           textstyle={styles.red}
         />
       </section>
-      <section>
-        <h2 className="text-3xl font-bold text-slate-700 py-6">
+      <section className="pb-6">
+        <h2 className="text-3xl  font-bold text-slate-700 py-6 md:text-center lg:text-left ">
           Overview Today
         </h2>
-        <div className="flex flex-col gap-4 ">
-          <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 lg:flex lg:flex-row md:items-center  lg:justify-between">
             <Overview
               likes={"Page Views"}
               img={"/src/images/icon-facebook.svg"}
@@ -80,8 +80,6 @@ const Main = () => {
               percentage={2257}
               percentTextColor={styles.green}
             />
-          </div>
-          <div className="flex flex-col gap-4">
             <Overview
               likes={"Profile Views"}
               img={"/src/images/icon-instagram.svg"}
@@ -90,6 +88,8 @@ const Main = () => {
               percentage={1375}
               percentTextColor={styles.green}
             />
+          </div>
+          <div className="flex flex-col gap-4 lg:flex lg:flex-row md:items-center  lg:justify-between">
             <Overview
               likes={"Retweets"}
               img={"/src/images/icon-twitter.svg"}
