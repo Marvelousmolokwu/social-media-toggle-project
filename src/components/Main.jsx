@@ -15,37 +15,53 @@ const Main = () => {
       <section className="flex flex-col gap-6 md:items-center lg:flex lg:flex-row lg:justify-between">
         <SocialCards
           stylesHead={styles.blue}
-          socialImage={"/src/images/icon-facebook.svg"}
+          socialImage={
+            "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681807877/icon-facebook_huppxn.svg"
+          }
           userName=" @nathanf"
           followers={1987}
-          arrowhead={"/src/images/icon-up.svg"}
+          arrowhead={
+            "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681807877/icon-up_brn39t.svg"
+          }
           todayfollow={12}
           textstyle={styles.green}
         />
         <SocialCards
           stylesHead={styles.twitter}
-          socialImage={"/src/images/icon-twitter.svg"}
+          socialImage={
+            "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681807877/icon-twitter_yoxlf5.svg"
+          }
           userName=" @nathanf"
           followers={1044}
-          arrowhead={"/src/images/icon-up.svg"}
+          arrowhead={
+            "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681807877/icon-up_brn39t.svg"
+          }
           todayfollow={99}
           textstyle={styles.green}
         />
         <SocialCards
           stylesHead={styles.instagram}
-          socialImage={"/src/images/icon-instagram.svg"}
+          socialImage={
+            "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681807877/icon-instagram_w1ofnt.svg"
+          }
           userName=" @realnathanf"
           followers={"11k"}
-          arrowhead={"/src/images/icon-up.svg"}
+          arrowhead={
+            "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681807877/icon-up_brn39t.svg"
+          }
           todayfollow={1099}
           textstyle={styles.green}
         />
         <SocialCards
           stylesHead={styles.youtube}
-          socialImage={"/src/images/icon-youtube.svg"}
+          socialImage={
+            "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681807878/icon-youtube_gdi6pt.svg"
+          }
           userName=" @Nathan f"
           followers={8239}
-          arrowhead={"/src/images/icon-down.svg"}
+          arrowhead={
+            "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681807877/icon-down_n7c8rq.svg"
+          }
           todayfollow={144}
           textstyle={styles.red}
         />
@@ -58,33 +74,49 @@ const Main = () => {
           <div className="flex flex-col gap-4 lg:flex lg:flex-row md:items-center  lg:justify-between">
             <Overview
               likes={"Page Views"}
-              img={"/src/images/icon-facebook.svg"}
+              img={
+                "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681807877/icon-facebook_huppxn.svg"
+              }
               likesAmount={87}
-              arrow={"/src/images/icon-up.svg"}
+              arrow={
+                "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681807877/icon-up_brn39t.svg"
+              }
               percentage={3}
               percentTextColor={styles.green}
             />
             <Overview
               likes={"Likes"}
-              img={"/src/images/icon-facebook.svg"}
+              img={
+                "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681807877/icon-facebook_huppxn.svg"
+              }
               likesAmount={52}
-              arrow={"/src/images/icon-down.svg"}
+              arrow={
+                "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681807877/icon-down_n7c8rq.svg"
+              }
               percentage={25}
               percentTextColor={styles.red}
             />
             <Overview
               likes={"Likes"}
-              img={"/src/images/icon-instagram.svg"}
+              img={
+                "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681807877/icon-instagram_w1ofnt.svg"
+              }
               likesAmount={5462}
-              arrow={"/src/images/icon-up.svg"}
+              arrow={
+                "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681807877/icon-up_brn39t.svg"
+              }
               percentage={2257}
               percentTextColor={styles.green}
             />
             <Overview
               likes={"Profile Views"}
-              img={"/src/images/icon-instagram.svg"}
+              img={
+                "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681807877/icon-instagram_w1ofnt.svg"
+              }
               likesAmount={"52k"}
-              arrow={"/src/images/icon-up.svg"}
+              arrow={
+                "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681807877/icon-up_brn39t.svg"
+              }
               percentage={1375}
               percentTextColor={styles.green}
             />
@@ -92,33 +124,49 @@ const Main = () => {
           <div className="flex flex-col gap-4 lg:flex lg:flex-row md:items-center  lg:justify-between">
             <Overview
               likes={"Retweets"}
-              img={"/src/images/icon-twitter.svg"}
+              img={
+                "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681807877/icon-twitter_yoxlf5.svg"
+              }
               likesAmount={117}
-              arrow={"/src/images/icon-up.svg"}
+              arrow={
+                "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681807877/icon-up_brn39t.svg"
+              }
               percentage={303}
               percentTextColor={styles.green}
             />
             <Overview
               likes={"Likes"}
-              img={"/src/images/icon-twitter.svg"}
+              img={
+                "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681807877/icon-twitter_yoxlf5.svg"
+              }
               likesAmount={507}
-              arrow={"/src/images/icon-up.svg"}
+              arrow={
+                "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681807877/icon-up_brn39t.svg"
+              }
               percentage={553}
               percentTextColor={styles.green}
             />
             <Overview
               likes={"Likes"}
-              img={"/src/images/icon-youtube.svg"}
+              img={
+                "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681807878/icon-youtube_gdi6pt.svg"
+              }
               likesAmount={107}
-              arrow={"/src/images/icon-down.svg"}
+              arrow={
+                "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681807877/icon-down_n7c8rq.svg"
+              }
               percentage={19}
               percentTextColor={styles.red}
             />
             <Overview
               likes={"Total Views"}
-              img={"/src/images/icon-youtube.svg"}
+              img={
+                "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681807878/icon-youtube_gdi6pt.svg"
+              }
               likesAmount={1407}
-              arrow={"/src/images/icon-down.svg"}
+              arrow={
+                "https://res.cloudinary.com/ddgyd8szc/image/upload/v1681807877/icon-down_n7c8rq.svg"
+              }
               percentage={12}
               percentTextColor={styles.red}
             />
