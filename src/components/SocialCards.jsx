@@ -12,7 +12,7 @@ const SocialCards = (props) => {
           <h2 className="text-7xl font-bold lg:text-5xl xl:text-7xl text-center">
             {props.followers}
           </h2>
-          <p className="text-xl tracking-[0.5rem] lg:tracking-[0.3rem] lg:text-sm xl:text-xl xl:tracking-[0.5rem]">
+          <p className="text-xl text-slate-500 tracking-[0.5rem] lg:tracking-[0.3rem] lg:text-sm xl:text-xl xl:tracking-[0.5rem]">
             FOLLOWERS
           </p>
         </div>

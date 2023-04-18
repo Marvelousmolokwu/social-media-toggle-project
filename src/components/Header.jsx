@@ -4,7 +4,7 @@ import React from "react";
 const Header = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <header className=" pt-10 pb-16 bg-VeryPaleBlue rounded-b-3xl w-full">
+    <header className="font-inter pt-10 pb-16 bg-VeryPaleBlue rounded-b-3xl w-full">
       <div className="me-auto ms-auto max-w-[90%] md:max-w-[50%] lg:flex lg:flex-row lg:justify-between  lg:max-w-[78%]">
         <div className="border-b-2 py-6 lg:border-none">
           <h1 className="font-bold text-3xl">Social Media Dashboard</h1>

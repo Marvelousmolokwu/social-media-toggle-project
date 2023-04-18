@@ -11,7 +11,7 @@ const Main = () => {
     twitter: "bg-Twitter",
   };
   return (
-    <main className="me-auto ms-auto max-w-[90%] z-10 -mt-14 lg:w-full lg:ms-0 lg:me-0 lg:px-20 lg:pr-6">
+    <main className="font-inter me-auto ms-auto max-w-[90%] z-10 -mt-14 lg:w-full lg:ms-0 lg:me-0 lg:px-20 lg:pr-6">
       <section className="flex flex-col gap-6 md:items-center lg:flex lg:flex-row lg:justify-between">
         <SocialCards
           stylesHead={styles.blue}
