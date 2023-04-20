@@ -1,6 +1,6 @@
 const Overview = (props) => {
   return (
-    <div className="flex flex-col bg-LightGrayishBlue hover:bg-LightGrayishBlue hover:brightness-95 py-6 px-8 gap-6 rounded-lg lg:min-w-[205px] md:w-[500px]  xl:min-w-[299px] ">
+    <div className="flex flex-col bg-LightGrayishBlue hover:bg-LightGrayishBlue hover:brightness-95 py-6 px-8 gap-6 rounded-lg lg:min-w-[205px] md:w-[600px]  xl:min-w-[299px] ">
       <div className="flex justify-between items-center">
         <p className="font-bold text-slate-500 text-lg">{props.likes}</p>
         <img src={props.img} alt="" />

@@ -1,7 +1,7 @@
 import React from "react";
 const SocialCards = (props) => {
   return (
-    <div className=" bg-LightGrayishBlue  hover:bg-LightGrayishBlue hover:brightness-95 rounded-lg md:w-[500px] lg:min-w-[200px] xl:min-w-[295px]">
+    <div className=" bg-LightGrayishBlue  hover:bg-LightGrayishBlue hover:brightness-95 rounded-lg md:w-[600px] lg:min-w-[200px] xl:min-w-[295px]">
       <div className={`h-1 rounded-t-lg ${props.stylesHead}`}></div>
       <div className="p-10 flex flex-col gap-6 items-center">
         <div className="flex gap-3 max-h-5">
